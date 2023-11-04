@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+html {background-color: rgb(15, 227, 86);}
+      
+h2 {padding:1em;}
+header {
+    border-bottom: 2px solid green;
+    height: 900px;
+    background-image: url(image/VVK.jpg);
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    padding-top: 10px;
+}
+.row{
+    background-color: aquamarine;
+}
+.col{
+    border: 2px solid black;
+    width: 50px;
+    padding: 5px;
+}
+.col a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    
+}
+.col a::after{
+    color: red;
+}
+h1{
+    text-align: center;
+    padding-top: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+body {
+  width: 95%;
+  background-color: rgb(243, 242, 242);
+  margin:15px auto;
+  border: 1px solid black;
+}
+/*-----------main-----------*/
+main {
+  width: 80%;
+  height: 5000px;
+  border-right: 2px solid green ;
+  float: left;
+}
+#about img{
+    width: 30%;
+    height: 300px;
+}
+.carousel-inner{
+    width: 30%;
+    height:300px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+button{
+    background-color: black;
+}
+.carousel-control-next-icon{
+    color: black;
+}
+.col{
+    width: 100%;
+}
+.video{
+    width: 50%;
+}
+#file{
+    padding-left: 30%;
+    padding-top: 30px;
+}
+aside{
+  width:20% ;
+  height: 5000px;
+  float: right;
+  padding-right: 20px; 
+  background-color: aliceblue;
+  padding-top: 5px;
+  padding: 10px;
+}
+.col-4 a{
+    width: 200%;
+    border: 2px solid black;
+    background-color: chartreuse;
+    color: black;
+    padding: 10px;
+    
+}
+footer{
+  clear:both;
+  border-top: 2px solid green;
+  height: 1500px;
+}
+#contact{
+    height: 300px;
+}
+.contect-left{
+    flex-basis: 35%;
+}
+.contect-right{
+    flex-basis: 60%;
+}
+.contect-left p{
+    margin-top: 30px;
+
+}
+.contect-left p i {
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition:transform 0.5s;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translate(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+}
+.contect-right form{
+    width: 100%;
+
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15PX;
+    margin: 15PX 0;
+    color: #fff;
+    font-size: 18PX;
+    border-radius: 6PX;
+
+}
+form btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background: #f9f9f9;
+    font-weight: 300;
+    margin-top: 20px;
+}
+@media only screen and (max-width:600px){
+    header{
+        background-image: url(/image/raja.png);
+    }
+    #about{
+        font-size: small;
+    }
+    #about img{
+        width: 30%;
+        height: 90px;
+    }
+    main{
+        height: 7000px;
+        width: 70%;
+
+    }
+    #file{
+        width: 40%;
+        height: 40px;
+    }
+    aside{
+        width: 30%;
+    }
+}
