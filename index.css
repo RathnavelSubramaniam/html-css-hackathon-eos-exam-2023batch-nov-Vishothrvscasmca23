@@ -131,6 +131,14 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+  .copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background: #f9f9f9;
+    font-weight: 300;
+    margin-top: 20px;
+}
 @media only screen and (max-width:600px){
     header{
         background-image: url(/image/raja.png);
